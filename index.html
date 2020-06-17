@@ -26,10 +26,10 @@
 </head>
 
 <body>
-    <div class="container center--text">
+    <div class="container center">
         <div class="row">
             <div class="col-12 col-md-4 pb-3">
-                <img src="komang_arinanda_profile.jpg" class="img-fluid rounded-circle float-center image-max-width img-thumbnail" alt="Komang Arinanda Profile">
+                <img src="komang_arinanda_profile.jpg" class="rounded-circle float-center image-profile img-thumbnail" alt="Komang Arinanda Profile">
             </div>
             <div class="col-12 col-md-8 text-left pb-3">
                 <h1 class="title">Hi, Saya Komang Arinanda</h1>
@@ -67,15 +67,17 @@
         display: flex;
         font-family: "courier new", arial, helvetica;
         height: 100vh;
+        text-align: center;
     }
     
-    .center--text {
+    .center {
         align-self: center;
         justify-content: center;
     }
     
-    .image-max-width {
+    .image-profile {
         max-width: 80%;
+        margin-top: 16px;
     }
     
     .text {
@@ -90,7 +92,7 @@
     }
     
     @media only screen and (max-width: 425px) {
-        .image-max-width {
+        .image-profile {
             max-width: 50%;
         }
         .text {
